@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <style>
+      body {
+        background-color: rgb(185, 185, 242);
+        border-radius: 8px;      
+      }
+      input[type=text],
+      select,
+      textarea {
+        width: 50%;
+        padding: 2px;
+        align-items: center;
+        border-radius: 8px;
+      }
+      
+      input[type=submit] {
+        background-color: #4cd9c6;
+        color: #ffffff; 
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      input[type=submit]:hover {
+        background-color: #6fe8d7;
+      }
+      footer{
+        background-color: rgb(160, 156, 193);
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      .socialicons{
+        display: flex;
+        margin-left: 43%;
+      }
+      .socialicons a{
+        text-decoration: none;
+        padding: 10px;
+        background-color: rgb(60, 55, 55);
+        margin: 5px;
+        border-radius: 10px;
+      }
+      .socialicons a i{
+        opacity: 0.9;
+        color:white;
+        font-size: 15px;
+      }
+      .socialicons a:hover{
+        background-color: rgb(121, 121, 241);
+        transition: 0.5s;
+      }
+  </style>
+  </head>
+  <body>
+    <center>
+    <h2 style="font-size: 20px ;align-items :center";>Contact Me</h2>
+    <div class="container">
+      <form action="submit.html" method="POST">
+        <label for="fname">Name</label><br>
+        <input type="text" id="fname" name="name" placeholder="Type your name.."><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="surname" placeholder="Type your last name.."><br>
+        <label for="lname">E-mail Address</label><br>
+        <input type="text" id="mail" name="e-mail" placeholder="Type your e-mail.."><br>
+        <label for="ci">Country</label><br>
+        <select id="country" name="country">
+          <option value="India">India</option>
+          <option value="India">Italy</option>
+          <option value="America">Spain</option>
+          <option value="Island">France</option>
+        </select><br>
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" placeholder="Type your message.." style="height:200px"></textarea><br><br>
+        <input type="submit" value="Send">
+      </form>
+    </div> 
+    <footer>
+        <div class="socialicons">
+          <a href="https://instagram.com/kavya_dgowda?igshid=OGQ5ZDc2ODk2ZA=="><i><i class="fa-brands fa-instagram"></i></i></a>
+          <a href="https://www.linkedin.com/in/kavya-d-767477204"><i><i class="fa-brands fa-linkedin"></i></i></a>
+          <a href="#"><i><i class="fa-brands fa-twitter"></i></i>in process</a>
+        </div>
+    </footer>
+  </center>
+  </body>
+</html>
+
+
+
